@@ -33,7 +33,7 @@ function Asidebar() {
                                             </div>
                                             <div className="contact">
                                                 <p className='mt-2 mb-3' style={{ color: "hsl(0deg 0.45% 56.27%)", textAlign: "start" }}>Email</p>
-                                                <a href="#" >f342dhruval@gmail.com</a>
+                                                <a href="email" >f342dhruval@gmail.com</a>
                                             </div>
                                         </li>
                                         <li className='phone mt-2'>
@@ -42,7 +42,7 @@ function Asidebar() {
                                             </div>
                                             <div className="contact">
                                                 <p className='mt-2 mb-3' style={{ color: "hsl(0deg 0.45% 56.27%)", textAlign: "start" }}>PHONE</p>
-                                                <a href="#" >+91 6354296164</a>
+                                                <a href="number" >+91 6354296164</a>
                                             </div>
                                         </li>
                                     </div>
@@ -53,7 +53,7 @@ function Asidebar() {
                                             </div>
                                             <div className="contact">
                                                 <p className='mt-2 mb-3' style={{ color: "hsl(0deg 0.45% 56.27%)", textAlign: "start" }}>BIRTHDAY</p>
-                                                <a href="#" >FEBRUARY 08, 2002</a>
+                                                <a href="birth" >FEBRUARY 08, 2002</a>
                                             </div>
                                         </li>
                                         <li className='phone mt-2'>
@@ -62,7 +62,7 @@ function Asidebar() {
                                             </div>
                                             <div className="contact">
                                                 <p className='mt-2 mb-3' style={{ color: "hsl(0deg 0.45% 56.27%)", textAlign: "start" }}>LOCATTION</p>
-                                                <a href="#" >Ahemdabad ,Gujrat</a>
+                                                <a href="adress" >Ahemdabad ,Gujrat</a>
                                             </div>
                                         </li>
 
@@ -71,7 +71,7 @@ function Asidebar() {
                                         <ul className="social_list p-0">
                                             <li><a href="https://www.linkedin.com/in/dhruvalgondaliya/"><i class="fa-brands fa-linkedin" style={{ color: "#d6d6d6" }}></i></a></li>
                                             <li><a href="https://github.com/dhruvalgondaliya"><i class="fa-brands fa-github" style={{ color: "#d6d6d6" }}></i></a></li>
-                                            <li><a href="#"><i class="fa-brands fa-instagram" style={{ color: "#d6d6d6" }}></i></a></li>
+                                            <li><a href="icon"><i class="fa-brands fa-instagram" style={{ color: "#d6d6d6" }}></i></a></li>
                                             <li><a href="https://wa.me/qr/GKQT6THOPJ6PK1"><i class="fa-brands fa-whatsapp" style={{ color: "#d6d6d6" }}></i></a></li>
                                         </ul>
                                     </div>

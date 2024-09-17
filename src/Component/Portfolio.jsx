@@ -121,7 +121,7 @@ function Portfolio() {
                                 <h3>LMS</h3>
                                 <p>Laibrary ManegeMent System</p>
                                 <button id='buto'>
-                                    <a href="#">
+                                    <a href="eye">
                                         <i class="bi bi-eye"></i>
                                     </a>
                                 </button>
