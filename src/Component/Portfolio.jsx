@@ -97,14 +97,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 border-none">
-                                    <button id='buto'><a href=" https://dhruvalgondaliya.github.io/AdminPanel/"><i class="bi bi-eye-fill"></i></a></button>
-                                    <img src={Admin} alt="" />
-                                    <div className="devlop">
-                                        <h3>Admin panel </h3>
-                                        <h5>Web Development</h5>
-                                    </div>
-                                </div>
+                                
                                 <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://krishpatel3085.github.io/RAGISTRATION-FORM/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={form} alt="" />
