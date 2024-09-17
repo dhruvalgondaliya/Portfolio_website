@@ -7,7 +7,6 @@ import Gym from './img/GymWebsite.jpg';
 import honey from './img/HoneyWebsite.jpg';
 import House from './img/HouseWebsite.jpg';
 import politics from './img/politicsWebsite.jpg';
-import Admin from './img/AdminPanal.jpg';
 import LMs from './img/Lms Png.png'
 
 
