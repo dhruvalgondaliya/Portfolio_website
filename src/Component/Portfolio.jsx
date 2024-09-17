@@ -36,7 +36,7 @@ function Portfolio() {
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
                             <div className="row m-2 pt-4">
-                                <div className="website col-md-4" >
+                                <div className="website col-md-4 border-none" >
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Ecommerce_website/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={Ecommerce} alt="" />
                                     <div className="devlop">
@@ -45,7 +45,7 @@ function Portfolio() {
 
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/SolarEnergy_Web/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={Solar} alt="" />
                                     <div className="devlop">
@@ -53,7 +53,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Jqurey/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={AI} alt="" />
                                     <div className="devlop">
@@ -63,7 +63,7 @@ function Portfolio() {
                                 </div>
                             </div>
                             <div className="row m-2 pt-3">
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Gym_website/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={Gym} alt="" />
                                     <div className="devlop">
@@ -71,7 +71,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Honey_Project/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={honey} alt="" />
                                     <div className="devlop">
@@ -79,7 +79,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Boostrap_website/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={House} alt="" />
                                     <div className="devlop">
@@ -89,7 +89,7 @@ function Portfolio() {
                                 </div>
                             </div>
                             <div className="row m-2 pt-3">
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://dhruvalgondaliya.github.io/Extraproject/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={politics} alt="" />
                                     <div className="devlop">
@@ -97,7 +97,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href=" https://dhruvalgondaliya.github.io/AdminPanel/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={Admin} alt="" />
                                     <div className="devlop">
@@ -105,7 +105,7 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                <div className="website col-md-4 ">
+                                <div className="website col-md-4 border-none">
                                     <button id='buto'><a href="https://krishpatel3085.github.io/RAGISTRATION-FORM/"><i class="bi bi-eye-fill"></i></a></button>
                                     <img src={form} alt="" />
                                     <div className="devlop">
@@ -116,12 +116,12 @@ function Portfolio() {
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <div className="website col-md-4 " id='portfo'>
+                            <div className="website col-md-4 border-none" id='portfo'>
                                 <img src={LMs} alt="" />
                                 <h3>LMS</h3>
                                 <p>Laibrary ManegeMent System</p>
                                 <button id='buto'>
-                                    <a href="eye">
+                                    <a href="https://laibrary.netlify.app/">
                                         <i class="bi bi-eye"></i>
                                     </a>
                                 </button>
