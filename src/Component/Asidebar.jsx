@@ -1,6 +1,6 @@
 import React from 'react'
 import img from './img/Dhruval.jpg'
-import cv from './img/dhruvalResume.pdf'
+
 
 function Asidebar() {
     return (
@@ -17,7 +17,7 @@ function Asidebar() {
                                     <h3>Dhruval Gondaliya</h3>
                                     <p style={{ color: '#605f5f' }} id='full'>Full Stack Developer</p>
                                 </span>
-                                <a href={cv} className='button text-center text-decoration-none text-light' download={cv} id='download'>Download CV</a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/fir-crud-beb70.appspot.com/o/DhruvalResume%20(1).pdf?alt=media&token=df564436-0e06-488f-b7cf-e4e9e706848e" className='button text-center text-decoration-none text-light' download id='download'>Download CV</a>
                             </div>
                             <label for="check">
                                 <span id='text-s' className='close'>Show Contacts</span>
