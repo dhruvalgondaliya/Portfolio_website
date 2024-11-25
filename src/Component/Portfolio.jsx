@@ -1,5 +1,4 @@
 import React from 'react';
-import form from './img/Form.jpg';
 import Ecommerce from './img/EcommerceWebsite.jpg';
 import Solar from './img/solarWebsite.jpg';
 import AI from './img/artificialWebsite.jpg';
@@ -7,7 +6,8 @@ import Gym from './img/GymWebsite.jpg';
 import honey from './img/HoneyWebsite.jpg';
 import House from './img/HouseWebsite.jpg';
 import politics from './img/politicsWebsite.jpg';
-import LMs from './img/Lms Png.png'
+import LMs from './img/Lms Png.png';
+import web from './img/devQ&A.png'
 
 
 function Portfolio() {
@@ -96,15 +96,28 @@ function Portfolio() {
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
-                                
+
+                                <div className="website col-md-4 border-none" id='portfo'>
+                                    <img src={LMs} alt="" />
+                                    <h3>LMS</h3>
+                                    <h5>Laibrary ManegeMent System</h5>
+                                    <button id='buto'>
+                                        <a href="https://laibrary.netlify.app/">
+                                            <i class="bi bi-eye"></i>
+                                        </a>
+                                    </button>
+
+                                </div>
+
                                 <div className="website col-md-4 border-none">
-                                    <button id='buto'><a href="https://krishpatel3085.github.io/RAGISTRATION-FORM/"><i class="bi bi-eye-fill"></i></a></button>
-                                    <img src={form} alt="" />
+                                    <button id='buto'><a href="https://devqa-web.netlify.app/"><i class="bi bi-eye-fill"></i></a></button>
+                                    <img src={web} alt="" />
                                     <div className="devlop">
-                                        <h3>Registration</h3>
+                                        <h3>Dev Q&A web</h3>
                                         <h5>Web Development</h5>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -118,15 +131,10 @@ function Portfolio() {
                                     </a>
                                 </button>
 
-                            </div>  
+                            </div>
                         </div>
 
                     </div>
-
-
-
-
-
 
                 </div>
             </div>
