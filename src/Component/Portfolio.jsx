@@ -40,7 +40,7 @@ function Portfolio() {
                                     <img src={Ecommerce} alt="" />
                                     <div className="devlop">
                                         <h3>Ecommerce Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
 
                                     </div>
                                 </div>
@@ -49,7 +49,7 @@ function Portfolio() {
                                     <img src={Solar} alt="" />
                                     <div className="devlop">
                                         <h3>Solar Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
                                 <div className="website col-md-4 border-none">
@@ -57,7 +57,7 @@ function Portfolio() {
                                     <img src={AI} alt="" />
                                     <div className="devlop">
                                         <h3>Artificial intelligence WebSite</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ function Portfolio() {
                                     <img src={Gym} alt="" />
                                     <div className="devlop">
                                         <h3>Gym Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
                                 <div className="website col-md-4 border-none">
@@ -75,7 +75,7 @@ function Portfolio() {
                                     <img src={honey} alt="" />
                                     <div className="devlop">
                                         <h3>Honey Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
                                 <div className="website col-md-4 border-none">
@@ -83,7 +83,7 @@ function Portfolio() {
                                     <img src={House} alt="" />
                                     <div className="devlop">
                                         <h3>House Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
                             </div>
@@ -93,20 +93,19 @@ function Portfolio() {
                                     <img src={politics} alt="" />
                                     <div className="devlop">
                                         <h3>Politics Website</h3>
-                                        <h5>Web Development</h5>
+                                        <h5>Web Design</h5>
                                     </div>
                                 </div>
 
                                 <div className="website col-md-4 border-none" id='portfo'>
                                     <img src={LMs} alt="" />
-                                    <h3>LMS</h3>
-                                    <h5>Laibrary ManegeMent System</h5>
+                                    <h3>LMS(Laibrary ManegeMent System)</h3>
+                                    <h5>Web Development</h5>
                                     <button id='buto'>
                                         <a href="https://laibrary.netlify.app/">
                                             <i class="bi bi-eye"></i>
                                         </a>
                                     </button>
-
                                 </div>
 
                                 <div className="website col-md-4 border-none">
