@@ -470,10 +470,10 @@
         position: fixed;
         display: flex;
         justify-content: center;
-        top: 88vh;
+        top: 91vh;
         width: 100%;
         margin-left: -20px;
-        height: 13vh;
+        height: 9vh;
         padding: 0px 10px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 0px;
@@ -485,7 +485,7 @@
 
     #nav ul {
         gap: 58px;
-        padding-top: 38px;
+        padding-top: 26px;
     }
 
     /* AboutUs Page */

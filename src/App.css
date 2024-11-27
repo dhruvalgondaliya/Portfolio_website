@@ -217,6 +217,7 @@ ol {
     display: flex;
     float: right;
     padding-left: 10px;
+    padding-inline-start: 0;
 }
 
 #nav ul {
