@@ -5,12 +5,12 @@ import './Component/Media.css'
 
 
 function App() {
-  
+
   return (
     <>
       <div id="master-div">
         <Asidebar />
-        <Main/>
+        <Main />
       </div>
 
 

@@ -476,7 +476,7 @@
         height: 9vh;
         padding: 0px 10px;
         border-top-left-radius: 20px;
-        border-bottom-left-radius: 0px;
+        border-bottom-left-radius: 0px; 
         background: hsla(240, 1%, 17%, 0.75);
         backdrop-filter: blur(10px);
         left: 20px;

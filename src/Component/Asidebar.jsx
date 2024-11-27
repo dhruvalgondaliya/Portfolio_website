@@ -17,7 +17,7 @@ function Asidebar() {
                                     <h3>Dhruval Gondaliya</h3>
                                     <p style={{ color: '#605f5f' }} id='full'>Full Stack Developer</p>
                                 </span>
-                                <a href="https://firebasestorage.googleapis.com/v0/b/fir-crud-beb70.appspot.com/o/DhruvalResume.pdf?alt=media&token=ad4717a7-b3bf-4073-ac5b-04a33f0a1713" className='button text-center text-decoration-none text-light' download id='download'>Download CV</a>
+                                <a href="https://firebasestorage.googleapis.com/v0/b/fir-crud-beb70.appspot.com/o/Dhruval_page-0001.jpg?alt=media&token=1a8904fb-f2e3-4892-843c-d4b777266426" className='button text-center text-decoration-none text-light' download id='download'>Download CV</a>
                             </div>
                             <label for="check">
                                 <span id='text-s' className='close'>Show Contacts</span>

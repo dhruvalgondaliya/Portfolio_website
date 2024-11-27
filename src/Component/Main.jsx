@@ -29,11 +29,11 @@ function Main() {
         navigate('/contact');
         setActivePage('contact');
     }
+
     const gotoAchivment = () => {
         navigate('/achivement');
         setActivePage('achivement');
     }
-
 
     return (
         <div className="container" id="main">
