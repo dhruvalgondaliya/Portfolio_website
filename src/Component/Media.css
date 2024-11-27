@@ -480,11 +480,12 @@
         background: hsla(240, 1%, 17%, 0.75);
         backdrop-filter: blur(10px);
         left: 20px;
+        z-index: 10;
     }
 
     #nav ul {
         gap: 58px;
-        padding-top: 29px;
+        padding-top: 38px;
     }
 
     /* AboutUs Page */
@@ -596,9 +597,15 @@
         top: 455px;
     }
 
+/* Achivement page */
+#Achive{
+    height: auto;
+}
+
+
     /* Potfolio page */
     #port {
-        height: 970px;
+        height: 1050px;
     }
 
     .website h3 {
@@ -1094,11 +1101,14 @@
         background: hsla(240, 1%, 17%, 0.75);
         backdrop-filter: blur(10px);
         left: 20px;
+        z-index: 10 ;
     }
 
     #nav ul {
-        gap: 35px;
-        padding-inline-start: 3px;
+        font-size: 15px;
+        margin-top: 11px;
+        gap: 16px;
+        padding-left: 0px;
     }
 
     /* AboutUs Page */
@@ -1230,7 +1240,7 @@
 
     /* Potfolio page */
     #port {
-        height: 2607px;
+        height: 2652px;
     }
 
     #potfolio {
@@ -1430,21 +1440,24 @@
         position: fixed;
         display: flex;
         justify-content: center;
-        top: 90vh;
+        top: 92vh;
         width: 100%;
         margin-left: -20px;
-        height: 10vh;
+        height: 8vh;
         padding: 0px 10px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 0px;
         background: hsla(240, 1%, 17%, 0.75);
         backdrop-filter: blur(10px);
         left: 20px;
+        z-index: 10;
     }
 
     #nav ul {
-        gap: 27px;
+        gap: 9px;
+        margin-top: 10px;
         padding-inline-start: 3px;
+        font-size: 14px;
     }
 
     /* AboutUs Page */
@@ -1580,7 +1593,7 @@
 
     /* Potfolio page */
     #port {
-        height: 2622px;
+        height: 2668px;
     }
 
     #potfolio {
@@ -1776,10 +1789,10 @@
         position: fixed;
         display: flex;
         justify-content: center;
-        top: 91vh;
+        top: 92vh;
         width: 100%;
         margin-left: -20px;
-        height: 10vh;
+        height: 8vh;
         padding: 7px 10px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 0px;
@@ -1931,7 +1944,7 @@
 
     /* Potfolio page */
     #port {
-        height: 2517px;
+        height: 2553px;
     }
 
     .devlop {
