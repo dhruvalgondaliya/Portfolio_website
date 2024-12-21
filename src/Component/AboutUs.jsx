@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function AboutUs() {
     return (
         <>
+        {/* This is  a About Page */}
             <div id="AboutUS">
                 <div className="container" id="aboutUs">
                     <div className="row">
