@@ -13,11 +13,8 @@ function Contact() {
       .sendForm(
         "service_c1zfhqh",
         "template_37xu4je",
-        // process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID from .env
-        // process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID from .env
         form.current,
         "NymVOLO6UmwkjIBfe"
-        // process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key from .env
       )
       .then(
         (result) => {

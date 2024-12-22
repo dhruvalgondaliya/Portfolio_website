@@ -36,6 +36,7 @@ function Main() {
     }
 
     return (
+        // Main Page
         <div className="container" id="main">
             <nav id="nav">
                 <ul>
