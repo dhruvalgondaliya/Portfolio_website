@@ -27,7 +27,7 @@ function Resume() {
         <div className="space-y-8">
             {/* Education Section */}
             <section className="bg-[#112240]/50 p-4 sm:p-6 md:p-8 rounded-2xl backdrop-blur-lg border border-emerald-400/20">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">Education</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-start">Education</h2>
                 <div className="h-1 w-20 bg-emerald-400 mb-8"></div>
 
                 <div className="relative">

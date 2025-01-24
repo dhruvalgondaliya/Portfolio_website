@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="space-y-8">
             <section className="bg-[#112240]/50 p-4 sm:p-6 md:p-8 rounded-2xl backdrop-blur-lg border border-emerald-400/20 ">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">About Me</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-start">About Me</h2>
                 <div className="h-1 w-20 bg-emerald-400 mb-4"></div>
                 <p className="text-gray-300 leading-relaxed text-sm sm:text-base">
                 I'm Web Developer from Ahemdabad. Motivated and detail-oriented Computer Science graduate with a strong background in full-stack web development. Proficient in modern technologies including HTML, CSS, JavaScript, React, Node.js, and MongoDB. Completed Skill base Course  at [Red & White Multimedia Eduction ] and  where I developed and maintained web applications, ensuring optimal performance and user experience. Proven ability to work in collaborative environments and tackle complex technical challenges through academic projects and hackathons. Eager to contribute my skills and enthusiasm to a dynamic development team in a full-stack developer role.
@@ -12,7 +12,7 @@ export default function About() {
             </section>
 
             <section className="bg-[#112240]/50 p-4 sm:p-6 md:p-8 rounded-2xl backdrop-blur-lg border border-emerald-400/20">
-                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4">What I'm Doing</h2>
+                <h2 className="text-xl sm:text-2xl md:text-3xl font-bold mb-4 text-start">What I'm Doing</h2>
                 <div className="h-1 w-20 bg-emerald-400 mb-4"></div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
                     <div className="bg-[#1a365d]/70 p-4 sm:p-6 rounded-lg hover:transform hover:scale-105 transition-transform border border-emerald-400/20">
