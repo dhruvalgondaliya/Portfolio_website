@@ -18,10 +18,11 @@ import Background from "./Background";
 import Achievements from "./Achievement";
 import Contact from "./Contact";
 import { useState } from "react";
+import Testimonials from "./Testimonials";
 
 //   function Header({ activeTab, onTabChange }: HeaderProps) {
 function MainApp() {
-  const links = ["About", "Resume", "Portfolio", "Achievement", "Contact"];
+  const links = ["About", "Resume", "Portfolio", "Achievement","Testimonials", "Contact"];
   const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -198,6 +199,7 @@ function MainApp() {
                 <Route path="/resume" element={<Resume />} />
                 <Route path="/portfolio" element={<Portfolio />} />
                 <Route path="/achievement" element={<Achievements />} />
+                <Route path="/testimonials" element={<Testimonials/>}/>
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </div>
