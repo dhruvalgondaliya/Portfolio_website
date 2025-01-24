@@ -10,6 +10,9 @@ function Contact() {
         message: ''
     });
 
+    const [status, setStatus] = useState('');
+    const [mapLoaded, setMapLoaded] = useState(false); // New state for map loading
+
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         setFormData({
             ...formData,
@@ -17,21 +20,17 @@ function Contact() {
         });
     };
 
-    const [status, setStatus] = useState('');
-    console.log(status)
-
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
 
         emailjs
             .send(
-                import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID, // Use `VITE_` for vite environment variables
+                import.meta.env.VITE_REACT_APP_EMAILJS_SERVICE_ID,
                 import.meta.env.VITE_REACT_APP_EMAILJS_TEMPLATE_ID,
                 formData,
                 import.meta.env.VITE_REACT_APP_EMAILJS_PUBLIC_KEY
             )
             .then((response: emailjs.EmailJSResponseStatus) => {
-                console.log('SUCCESS!', response.status, response.text);
                 setStatus('Message sent successfully!');
                 setFormData({
                     name: '',
@@ -40,8 +39,7 @@ function Contact() {
                     message: ''
                 });
             })
-            .catch((err: any) => {
-                console.error('FAILED...', err);
+            .catch(() => {
                 setStatus('Failed to send message. Please try again.');
             });
     };
@@ -53,8 +51,11 @@ function Contact() {
                 <div className="h-1 w-20 bg-emerald-400 mb-8"></div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    {/* Map */}
-                    <div className="w-full h-[400px] rounded-lg overflow-hidden">
+                    {/* Map with Loading Skeleton */}
+                    <div className="w-full h-[400px] rounded-lg overflow-hidden relative">
+                        {!mapLoaded && (
+                            <div className="absolute inset-0 bg-gray-700 animate-pulse rounded-lg"></div>
+                        )}
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d235013.748423387!2d72.41492502397058!3d23.02047410476304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fcedd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1717402079057!5m2!1sen!2sin"
                             width="100%"
@@ -64,8 +65,11 @@ function Contact() {
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                             className="rounded-lg"
+                            onLoad={() => setMapLoaded(true)} // Set mapLoaded to true when iframe loads
                         ></iframe>
                     </div>
+
+                    {/* Contact Form */}
                     <form onSubmit={handleSubmit} className="space-y-4">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                             <div>
@@ -132,7 +136,7 @@ function Contact() {
                             <Send className="w-5 h-5" />
                             Send Message
                         </button>
-                <p className='text-success mt-2 fs-6 text-center' >{status}</p>
+                        <p className="text-success mt-2 fs-6 text-center">{status}</p>
                     </form>
                 </div>
             </section>
